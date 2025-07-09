@@ -20,7 +20,7 @@ void	ft_print_comnb(void)
 		{
 			while (d3 >= d2 + 1 && d3 <= 57)
 			{
-				ft_putchr(d1);
+				ft_putchar(d1);
 				ft_putchar(d2);
 				ft_putchar(d3);
 				write(1, ", ", 2);
